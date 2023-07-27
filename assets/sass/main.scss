@@ -429,7 +429,7 @@ $pattern-background-size: 25em;
 		&.featured {
 			display: block;
 			margin: 0 0 2em 0;
-
+			opacity: 100%;
 			img {
 				display: block;
 				width: 100%;
@@ -527,7 +527,7 @@ $pattern-background-size: 25em;
 			cursor: default;
 			display: block;
 			margin: 0 0 1.5em 0;
-			opacity: 0.35;
+			
 			text-align: center;
 
 			&:before {
