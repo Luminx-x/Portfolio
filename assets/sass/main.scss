@@ -1107,6 +1107,27 @@ $pattern-background-size: 25em;
 				}
 			}
 		}
+		.contact {
+			font-size: 8em;
+			line-height: 9.6em;
+
+			a {
+				color: inherit;
+			}
+
+			li {
+				display: inline-block;
+				margin-left: 1em;
+				padding-left: 1em;
+				border-left: dotted 1px;
+
+				&:first-child {
+					margin: 0;
+					padding: 0;
+					border: 0;
+				}
+			}
+		}
 	}
 
 /* Wide */
